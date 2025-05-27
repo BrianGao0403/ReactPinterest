@@ -1,0 +1,43 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 16px;
+    grid-auto-rows: 10px;
+}
+
+/* 窗口缩小到max width时， 减少所显示的图片数量 */
+@media (max-width: 1746px){
+    .gallery{
+        grid-template-columns: repeat(6,1fr);
+    }
+}
+
+@media (max-width: 1509){
+    .gallery{
+        grid-template-columns: repeat(5,1fr);
+    }
+}
+
+@media (max-width: 1272px){
+    .gallery{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media (max-width: 1035px){
+    .gallery{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width: 798px){
+    .gallery{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 474px){
+    .gallery{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
