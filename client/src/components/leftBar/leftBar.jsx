@@ -20,7 +20,7 @@ const LeftBar = () => {
                 </a>
                 <a href='/' className='menuIcon'>
                     <img src='/general/updates.svg' alt='' />
-                    <p className='menuText'>Notify</p>
+                    <p className='menuText'>Notice</p>
                 </a>
                 <a href='/' className='menuIcon'>
                     <img src='/general/messages.svg' alt='' />
