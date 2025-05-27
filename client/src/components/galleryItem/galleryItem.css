@@ -7,7 +7,7 @@
   width: 100%;
   border-radius: 16px;
   object-fit: cover;
-
+  border: 1px solid #ddd;
   transition: transform 0.3s ease; /* Ìí¼ÓÆ½»¬¹ý¶É */
 }
 
