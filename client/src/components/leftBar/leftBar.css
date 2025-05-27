@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 71px;
+    width: 140px;
     height: 100vh;
     position: sticky;
     top: 0;
@@ -18,7 +18,16 @@
 }
 
 .menuIcon{
-    width: 48px;
+    width: 130px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.logoIcon{
+    width: 130px;
     height: 48px;
     display: flex;
     align-items: center;
@@ -27,9 +36,16 @@
 
 .menuIcon:hover{
     background-color: #f1f1f1;
+    border-radius: 30px;
 }
 
 .logo{
     width: 40px;
     height: 40px;
+}
+
+.menuText{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
 }
