@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "imagekit-react": "^0.1.0",
     "react-router": "^7.6.1"
   }
 }
